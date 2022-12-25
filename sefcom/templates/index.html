@@ -1,0 +1,15 @@
+
+<div>
+    <p> <strong>Is token active ?</strong>  {{is_active}} </p>
+    <p> <strong>profile</strong>  {{profile}} </p>
+    <p>
+        <a href="{% url 'auth' %}"> Click Here to authenticate </a>
+    </p>
+    <p>
+        <a href="/refreshToken"> Click Here to refresh token </a>
+    </p>
+    <p>
+        <a href="/revokeToken"> Click Here to revoke token </a>
+    </p>
+</div>
+
